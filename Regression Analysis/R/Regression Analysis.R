@@ -17,7 +17,7 @@ library("ggplot2")
 # Figure 11.01 Scatterplot from Google Correlate.png
 # ======================================================================
 
-google <- read.csv("~/Desktop/google.csv", header = T)
+google <- read.csv("D:/Data Mining/Regression Analysis/R/google.csv", header = T)
 
 ggplot(google, aes(modern.dance, nba)) + 
   # Regression line
